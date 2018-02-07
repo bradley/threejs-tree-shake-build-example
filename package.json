@@ -1,0 +1,18 @@
+{
+  "name": "threejs-custom-build",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "build-custom-three": "npx browserify utils/build_three.js -p [ threejs-tree-shake --loose ] > build/three.custom.js"
+  },
+  "dependencies": {
+    "three": "^0.89.0"
+  },
+  "devDependencies": {
+    "browserify": "^15.2.0",
+    "threejs-tree-shake": "^1.0.0"
+  }
+}
