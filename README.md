@@ -17,6 +17,7 @@ However, this has allowed me to do things like release `Blotter.js` at a signifi
 To run a build, change the contents of `utils/build_three.js` to bring in whatever `THREE` modules you need in your project, and then run the following NPM command:
 
 ```
+$ npm install
 $ npm run build-custom-three
 ```
 
